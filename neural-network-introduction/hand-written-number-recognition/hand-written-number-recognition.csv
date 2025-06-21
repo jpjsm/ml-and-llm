@@ -1,0 +1,2 @@
+"hidden_nodes","learning_rate","slope","threshold","epochs","accuracy","train_set_length","test_set_length","training_duration","test_duration"
+200,0.3,3,0.5,5,0,200,10,02:18:03.4253743,00:00:00.7376309

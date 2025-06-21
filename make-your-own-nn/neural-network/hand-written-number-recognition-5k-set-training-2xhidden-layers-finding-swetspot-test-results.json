@@ -1,0 +1,2724 @@
+{
+    "input_nodes": 784,
+    "output_nodes": 10,
+    "train_subset_size": 5000,
+    "test_subset_size": 500,
+    "hidden_nodes_values": [
+        50,
+        75,
+        100,
+        150,
+        200,
+        300,
+        400
+    ],
+    "learning_rate_values": [
+        0.05,
+        0.075,
+        0.09,
+        0.1,
+        0.2,
+        0.3,
+        0.5,
+        0.75
+    ],
+    "epochs_values": [
+        1,
+        2,
+        3,
+        5,
+        8,
+        13
+    ],
+    "test_duration_secs": 11352.204227,
+    "accuracy_raw_values": [
+        {
+            "accuracy": 0.784,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 1.498185,
+            "testing_delta_secs": 0.102308
+        },
+        {
+            "accuracy": 0.85,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 2.785701,
+            "testing_delta_secs": 0.106534
+        },
+        {
+            "accuracy": 0.888,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 4.191831,
+            "testing_delta_secs": 0.101472
+        },
+        {
+            "accuracy": 0.916,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 7.245589,
+            "testing_delta_secs": 0.106571
+        },
+        {
+            "accuracy": 0.928,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 11.050642,
+            "testing_delta_secs": 0.102399
+        },
+        {
+            "accuracy": 0.924,
+            "hidden_nodes": 50,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 18.643467,
+            "testing_delta_secs": 0.151807
+        },
+        {
+            "accuracy": 0.878,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 1.373015,
+            "testing_delta_secs": 0.116429
+        },
+        {
+            "accuracy": 0.884,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 2.970653,
+            "testing_delta_secs": 0.109811
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 4.430193,
+            "testing_delta_secs": 0.090208
+        },
+        {
+            "accuracy": 0.926,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 5.858326,
+            "testing_delta_secs": 0.080912
+        },
+        {
+            "accuracy": 0.914,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 10.030372,
+            "testing_delta_secs": 0.085459
+        },
+        {
+            "accuracy": 0.9,
+            "hidden_nodes": 50,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 16.304378,
+            "testing_delta_secs": 0.096547
+        },
+        {
+            "accuracy": 0.856,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 1.284499,
+            "testing_delta_secs": 0.100225
+        },
+        {
+            "accuracy": 0.886,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 2.594042,
+            "testing_delta_secs": 0.100079
+        },
+        {
+            "accuracy": 0.878,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 3.786097,
+            "testing_delta_secs": 0.096256
+        },
+        {
+            "accuracy": 0.896,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 6.683174,
+            "testing_delta_secs": 0.099655
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 10.501342,
+            "testing_delta_secs": 0.099022
+        },
+        {
+            "accuracy": 0.916,
+            "hidden_nodes": 50,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 16.926876,
+            "testing_delta_secs": 0.100061
+        },
+        {
+            "accuracy": 0.884,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 1.320325,
+            "testing_delta_secs": 0.099858
+        },
+        {
+            "accuracy": 0.88,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 2.84057,
+            "testing_delta_secs": 0.0833
+        },
+        {
+            "accuracy": 0.91,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 3.902667,
+            "testing_delta_secs": 0.083532
+        },
+        {
+            "accuracy": 0.896,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 6.495786,
+            "testing_delta_secs": 0.100065
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 10.449755,
+            "testing_delta_secs": 0.088579
+        },
+        {
+            "accuracy": 0.906,
+            "hidden_nodes": 50,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 16.882075,
+            "testing_delta_secs": 0.091577
+        },
+        {
+            "accuracy": 0.814,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 1.362659,
+            "testing_delta_secs": 0.103774
+        },
+        {
+            "accuracy": 0.736,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 2.584887,
+            "testing_delta_secs": 0.099755
+        },
+        {
+            "accuracy": 0.786,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 4.197265,
+            "testing_delta_secs": 0.100173
+        },
+        {
+            "accuracy": 0.788,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 6.466779,
+            "testing_delta_secs": 0.100114
+        },
+        {
+            "accuracy": 0.832,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 10.508823,
+            "testing_delta_secs": 0.099764
+        },
+        {
+            "accuracy": 0.818,
+            "hidden_nodes": 50,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 16.775108,
+            "testing_delta_secs": 0.093871
+        },
+        {
+            "accuracy": 0.788,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 1.36472,
+            "testing_delta_secs": 0.116564
+        },
+        {
+            "accuracy": 0.788,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 2.697428,
+            "testing_delta_secs": 0.093486
+        },
+        {
+            "accuracy": 0.79,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 3.943005,
+            "testing_delta_secs": 0.099711
+        },
+        {
+            "accuracy": 0.742,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 6.550331,
+            "testing_delta_secs": 0.110424
+        },
+        {
+            "accuracy": 0.758,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 10.647345,
+            "testing_delta_secs": 0.118911
+        },
+        {
+            "accuracy": 0.794,
+            "hidden_nodes": 50,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 14.858056,
+            "testing_delta_secs": 0.085212
+        },
+        {
+            "accuracy": 0.626,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 1.109037,
+            "testing_delta_secs": 0.093247
+        },
+        {
+            "accuracy": 0.536,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 2.166661,
+            "testing_delta_secs": 0.086917
+        },
+        {
+            "accuracy": 0.654,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 3.250077,
+            "testing_delta_secs": 0.075083
+        },
+        {
+            "accuracy": 0.714,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 5.499847,
+            "testing_delta_secs": 0.100144
+        },
+        {
+            "accuracy": 0.67,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 8.950169,
+            "testing_delta_secs": 0.098884
+        },
+        {
+            "accuracy": 0.702,
+            "hidden_nodes": 50,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 14.683469,
+            "testing_delta_secs": 0.116031
+        },
+        {
+            "accuracy": 0.466,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 1.1498,
+            "testing_delta_secs": 0.098706
+        },
+        {
+            "accuracy": 0.658,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 2.334982,
+            "testing_delta_secs": 0.101137
+        },
+        {
+            "accuracy": 0.524,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 3.825936,
+            "testing_delta_secs": 0.09729
+        },
+        {
+            "accuracy": 0.46,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 5.838621,
+            "testing_delta_secs": 0.11321
+        },
+        {
+            "accuracy": 0.522,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 8.961793,
+            "testing_delta_secs": 0.111463
+        },
+        {
+            "accuracy": 0.544,
+            "hidden_nodes": 50,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 15.132755,
+            "testing_delta_secs": 0.108044
+        },
+        {
+            "accuracy": 0.888,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 1.501864,
+            "testing_delta_secs": 0.103321
+        },
+        {
+            "accuracy": 0.874,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 3.033057,
+            "testing_delta_secs": 0.105203
+        },
+        {
+            "accuracy": 0.892,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 4.398662,
+            "testing_delta_secs": 0.099793
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 7.208704,
+            "testing_delta_secs": 0.129029
+        },
+        {
+            "accuracy": 0.944,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 11.445605,
+            "testing_delta_secs": 0.11969
+        },
+        {
+            "accuracy": 0.918,
+            "hidden_nodes": 75,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 18.893045,
+            "testing_delta_secs": 0.100292
+        },
+        {
+            "accuracy": 0.834,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 1.411996,
+            "testing_delta_secs": 0.114193
+        },
+        {
+            "accuracy": 0.886,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 2.995631,
+            "testing_delta_secs": 0.128533
+        },
+        {
+            "accuracy": 0.93,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 4.303258,
+            "testing_delta_secs": 0.100319
+        },
+        {
+            "accuracy": 0.928,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 7.207801,
+            "testing_delta_secs": 0.099556
+        },
+        {
+            "accuracy": 0.936,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 11.794799,
+            "testing_delta_secs": 0.109633
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 75,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 19.00032,
+            "testing_delta_secs": 0.116588
+        },
+        {
+            "accuracy": 0.89,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 1.56911,
+            "testing_delta_secs": 0.098178
+        },
+        {
+            "accuracy": 0.892,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 2.914675,
+            "testing_delta_secs": 0.125389
+        },
+        {
+            "accuracy": 0.926,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 4.266668,
+            "testing_delta_secs": 0.115104
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 7.120766,
+            "testing_delta_secs": 0.134645
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 11.598259,
+            "testing_delta_secs": 0.104509
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 75,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 19.199825,
+            "testing_delta_secs": 0.112356
+        },
+        {
+            "accuracy": 0.862,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 1.383858,
+            "testing_delta_secs": 0.099671
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 2.7871,
+            "testing_delta_secs": 0.117027
+        },
+        {
+            "accuracy": 0.906,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 4.511588,
+            "testing_delta_secs": 0.132098
+        },
+        {
+            "accuracy": 0.928,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 8.103135,
+            "testing_delta_secs": 0.113415
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 11.250418,
+            "testing_delta_secs": 0.100323
+        },
+        {
+            "accuracy": 0.906,
+            "hidden_nodes": 75,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 19.02893,
+            "testing_delta_secs": 0.099997
+        },
+        {
+            "accuracy": 0.86,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 1.513841,
+            "testing_delta_secs": 0.113076
+        },
+        {
+            "accuracy": 0.816,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 3.251817,
+            "testing_delta_secs": 0.099851
+        },
+        {
+            "accuracy": 0.826,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 4.356605,
+            "testing_delta_secs": 0.100283
+        },
+        {
+            "accuracy": 0.824,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 7.223764,
+            "testing_delta_secs": 0.102077
+        },
+        {
+            "accuracy": 0.826,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 12.420461,
+            "testing_delta_secs": 0.107421
+        },
+        {
+            "accuracy": 0.842,
+            "hidden_nodes": 75,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 18.866973,
+            "testing_delta_secs": 0.100611
+        },
+        {
+            "accuracy": 0.772,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 1.612658,
+            "testing_delta_secs": 0.112451
+        },
+        {
+            "accuracy": 0.73,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 3.769152,
+            "testing_delta_secs": 0.132037
+        },
+        {
+            "accuracy": 0.798,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 4.470098,
+            "testing_delta_secs": 0.099682
+        },
+        {
+            "accuracy": 0.726,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 7.431384,
+            "testing_delta_secs": 0.116608
+        },
+        {
+            "accuracy": 0.748,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 11.390753,
+            "testing_delta_secs": 0.153768
+        },
+        {
+            "accuracy": 0.74,
+            "hidden_nodes": 75,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 20.698705,
+            "testing_delta_secs": 0.132735
+        },
+        {
+            "accuracy": 0.718,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 1.698782,
+            "testing_delta_secs": 0.132546
+        },
+        {
+            "accuracy": 0.664,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 2.882528,
+            "testing_delta_secs": 0.13307
+        },
+        {
+            "accuracy": 0.72,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 4.266185,
+            "testing_delta_secs": 0.099708
+        },
+        {
+            "accuracy": 0.584,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 7.949636,
+            "testing_delta_secs": 0.099695
+        },
+        {
+            "accuracy": 0.64,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 12.108956,
+            "testing_delta_secs": 0.125354
+        },
+        {
+            "accuracy": 0.62,
+            "hidden_nodes": 75,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 19.155819,
+            "testing_delta_secs": 0.130386
+        },
+        {
+            "accuracy": 0.574,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 1.48754,
+            "testing_delta_secs": 0.152973
+        },
+        {
+            "accuracy": 0.586,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 2.865221,
+            "testing_delta_secs": 0.116809
+        },
+        {
+            "accuracy": 0.622,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 4.296457,
+            "testing_delta_secs": 0.115036
+        },
+        {
+            "accuracy": 0.56,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 8.298286,
+            "testing_delta_secs": 0.215712
+        },
+        {
+            "accuracy": 0.608,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 13.667797,
+            "testing_delta_secs": 0.120781
+        },
+        {
+            "accuracy": 0.426,
+            "hidden_nodes": 75,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 19.946496,
+            "testing_delta_secs": 0.099974
+        },
+        {
+            "accuracy": 0.862,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 2.941228,
+            "testing_delta_secs": 0.180335
+        },
+        {
+            "accuracy": 0.88,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 6.110262,
+            "testing_delta_secs": 0.165364
+        },
+        {
+            "accuracy": 0.892,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 11.247716,
+            "testing_delta_secs": 0.177208
+        },
+        {
+            "accuracy": 0.942,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 15.937507,
+            "testing_delta_secs": 0.218563
+        },
+        {
+            "accuracy": 0.934,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 23.713463,
+            "testing_delta_secs": 0.173324
+        },
+        {
+            "accuracy": 0.936,
+            "hidden_nodes": 100,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 38.22583,
+            "testing_delta_secs": 0.170162
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 2.888198,
+            "testing_delta_secs": 0.210758
+        },
+        {
+            "accuracy": 0.896,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 5.85806,
+            "testing_delta_secs": 0.168905
+        },
+        {
+            "accuracy": 0.908,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 8.894735,
+            "testing_delta_secs": 0.169151
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 14.9676,
+            "testing_delta_secs": 0.189413
+        },
+        {
+            "accuracy": 0.94,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 25.400881,
+            "testing_delta_secs": 0.165504
+        },
+        {
+            "accuracy": 0.926,
+            "hidden_nodes": 100,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 38.645884,
+            "testing_delta_secs": 0.161236
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 2.912343,
+            "testing_delta_secs": 0.217067
+        },
+        {
+            "accuracy": 0.922,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 5.646279,
+            "testing_delta_secs": 0.171929
+        },
+        {
+            "accuracy": 0.926,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 9.289973,
+            "testing_delta_secs": 0.164066
+        },
+        {
+            "accuracy": 0.922,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 14.725277,
+            "testing_delta_secs": 0.171638
+        },
+        {
+            "accuracy": 0.948,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 23.808414,
+            "testing_delta_secs": 0.151395
+        },
+        {
+            "accuracy": 0.96,
+            "hidden_nodes": 100,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 36.289516,
+            "testing_delta_secs": 0.173219
+        },
+        {
+            "accuracy": 0.894,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 2.716636,
+            "testing_delta_secs": 0.168147
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 5.460509,
+            "testing_delta_secs": 0.167428
+        },
+        {
+            "accuracy": 0.936,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 7.937556,
+            "testing_delta_secs": 0.212006
+        },
+        {
+            "accuracy": 0.914,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 14.608338,
+            "testing_delta_secs": 0.158737
+        },
+        {
+            "accuracy": 0.916,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 22.567767,
+            "testing_delta_secs": 0.165514
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 100,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 36.94988,
+            "testing_delta_secs": 0.176921
+        },
+        {
+            "accuracy": 0.882,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 2.844683,
+            "testing_delta_secs": 0.161866
+        },
+        {
+            "accuracy": 0.87,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 5.649878,
+            "testing_delta_secs": 0.166584
+        },
+        {
+            "accuracy": 0.858,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 8.547529,
+            "testing_delta_secs": 0.158376
+        },
+        {
+            "accuracy": 0.826,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 14.231291,
+            "testing_delta_secs": 0.150051
+        },
+        {
+            "accuracy": 0.852,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 21.507002,
+            "testing_delta_secs": 0.164489
+        },
+        {
+            "accuracy": 0.846,
+            "hidden_nodes": 100,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 36.688369,
+            "testing_delta_secs": 0.149731
+        },
+        {
+            "accuracy": 0.846,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 2.905717,
+            "testing_delta_secs": 0.150488
+        },
+        {
+            "accuracy": 0.7,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 5.380124,
+            "testing_delta_secs": 0.191948
+        },
+        {
+            "accuracy": 0.802,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 8.076771,
+            "testing_delta_secs": 0.166513
+        },
+        {
+            "accuracy": 0.882,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 13.614645,
+            "testing_delta_secs": 0.176151
+        },
+        {
+            "accuracy": 0.796,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 21.85,
+            "testing_delta_secs": 0.149595
+        },
+        {
+            "accuracy": 0.8,
+            "hidden_nodes": 100,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 35.199096,
+            "testing_delta_secs": 0.171537
+        },
+        {
+            "accuracy": 0.76,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 2.723805,
+            "testing_delta_secs": 0.166608
+        },
+        {
+            "accuracy": 0.416,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 5.444456,
+            "testing_delta_secs": 0.158939
+        },
+        {
+            "accuracy": 0.63,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 8.281778,
+            "testing_delta_secs": 0.208882
+        },
+        {
+            "accuracy": 0.694,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 13.766335,
+            "testing_delta_secs": 0.207527
+        },
+        {
+            "accuracy": 0.604,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 22.022547,
+            "testing_delta_secs": 0.167482
+        },
+        {
+            "accuracy": 0.592,
+            "hidden_nodes": 100,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 36.181726,
+            "testing_delta_secs": 0.164909
+        },
+        {
+            "accuracy": 0.516,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 2.92942,
+            "testing_delta_secs": 0.156749
+        },
+        {
+            "accuracy": 0.566,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 5.365995,
+            "testing_delta_secs": 0.157803
+        },
+        {
+            "accuracy": 0.404,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 8.06784,
+            "testing_delta_secs": 0.163263
+        },
+        {
+            "accuracy": 0.45,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 13.614726,
+            "testing_delta_secs": 0.169783
+        },
+        {
+            "accuracy": 0.414,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 21.789244,
+            "testing_delta_secs": 0.165199
+        },
+        {
+            "accuracy": 0.372,
+            "hidden_nodes": 100,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 36.816672,
+            "testing_delta_secs": 0.213795
+        },
+        {
+            "accuracy": 0.858,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 3.579202,
+            "testing_delta_secs": 0.166369
+        },
+        {
+            "accuracy": 0.918,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 6.917375,
+            "testing_delta_secs": 0.271168
+        },
+        {
+            "accuracy": 0.904,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 10.26557,
+            "testing_delta_secs": 0.179616
+        },
+        {
+            "accuracy": 0.93,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 15.816641,
+            "testing_delta_secs": 0.166924
+        },
+        {
+            "accuracy": 0.958,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 25.13338,
+            "testing_delta_secs": 0.160839
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 150,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 40.809102,
+            "testing_delta_secs": 0.178079
+        },
+        {
+            "accuracy": 0.868,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 3.256551,
+            "testing_delta_secs": 0.164057
+        },
+        {
+            "accuracy": 0.928,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 6.075368,
+            "testing_delta_secs": 0.163813
+        },
+        {
+            "accuracy": 0.924,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 9.983144,
+            "testing_delta_secs": 0.175835
+        },
+        {
+            "accuracy": 0.94,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 15.626102,
+            "testing_delta_secs": 0.176114
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 26.042604,
+            "testing_delta_secs": 0.17582
+        },
+        {
+            "accuracy": 0.954,
+            "hidden_nodes": 150,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 41.733604,
+            "testing_delta_secs": 0.153811
+        },
+        {
+            "accuracy": 0.894,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 3.158463,
+            "testing_delta_secs": 0.161235
+        },
+        {
+            "accuracy": 0.896,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 6.574089,
+            "testing_delta_secs": 0.162591
+        },
+        {
+            "accuracy": 0.918,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 9.857651,
+            "testing_delta_secs": 0.175632
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 16.262267,
+            "testing_delta_secs": 0.177022
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 26.199064,
+            "testing_delta_secs": 0.173222
+        },
+        {
+            "accuracy": 0.958,
+            "hidden_nodes": 150,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 38.683464,
+            "testing_delta_secs": 0.160156
+        },
+        {
+            "accuracy": 0.858,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 2.974741,
+            "testing_delta_secs": 0.149523
+        },
+        {
+            "accuracy": 0.88,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 5.871982,
+            "testing_delta_secs": 0.164877
+        },
+        {
+            "accuracy": 0.904,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 8.949785,
+            "testing_delta_secs": 0.1758
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 14.865716,
+            "testing_delta_secs": 0.167721
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 24.899586,
+            "testing_delta_secs": 0.155834
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 150,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 40.968015,
+            "testing_delta_secs": 0.161275
+        },
+        {
+            "accuracy": 0.884,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 3.161593,
+            "testing_delta_secs": 0.188895
+        },
+        {
+            "accuracy": 0.918,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 6.330158,
+            "testing_delta_secs": 0.162033
+        },
+        {
+            "accuracy": 0.808,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 9.295975,
+            "testing_delta_secs": 0.159836
+        },
+        {
+            "accuracy": 0.892,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 15.660864,
+            "testing_delta_secs": 0.160604
+        },
+        {
+            "accuracy": 0.862,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 25.764379,
+            "testing_delta_secs": 0.176823
+        },
+        {
+            "accuracy": 0.846,
+            "hidden_nodes": 150,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 42.033325,
+            "testing_delta_secs": 0.198253
+        },
+        {
+            "accuracy": 0.822,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 3.268323,
+            "testing_delta_secs": 0.165755
+        },
+        {
+            "accuracy": 0.78,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 6.660723,
+            "testing_delta_secs": 0.171282
+        },
+        {
+            "accuracy": 0.828,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 10.481585,
+            "testing_delta_secs": 0.160166
+        },
+        {
+            "accuracy": 0.766,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 15.031141,
+            "testing_delta_secs": 0.175329
+        },
+        {
+            "accuracy": 0.804,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 24.761016,
+            "testing_delta_secs": 0.160511
+        },
+        {
+            "accuracy": 0.736,
+            "hidden_nodes": 150,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 40.498464,
+            "testing_delta_secs": 0.179293
+        },
+        {
+            "accuracy": 0.638,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 3.15002,
+            "testing_delta_secs": 0.16791
+        },
+        {
+            "accuracy": 0.67,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 6.431362,
+            "testing_delta_secs": 0.158583
+        },
+        {
+            "accuracy": 0.756,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 10.283303,
+            "testing_delta_secs": 0.177325
+        },
+        {
+            "accuracy": 0.542,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 16.472049,
+            "testing_delta_secs": 0.160783
+        },
+        {
+            "accuracy": 0.516,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 25.195006,
+            "testing_delta_secs": 0.149876
+        },
+        {
+            "accuracy": 0.63,
+            "hidden_nodes": 150,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 41.66677,
+            "testing_delta_secs": 0.157055
+        },
+        {
+            "accuracy": 0.476,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 3.166716,
+            "testing_delta_secs": 0.216457
+        },
+        {
+            "accuracy": 0.662,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 6.475673,
+            "testing_delta_secs": 0.166568
+        },
+        {
+            "accuracy": 0.572,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 9.64962,
+            "testing_delta_secs": 0.169519
+        },
+        {
+            "accuracy": 0.254,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 16.676935,
+            "testing_delta_secs": 0.149725
+        },
+        {
+            "accuracy": 0.222,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 27.103189,
+            "testing_delta_secs": 0.166736
+        },
+        {
+            "accuracy": 0.426,
+            "hidden_nodes": 150,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 42.896089,
+            "testing_delta_secs": 0.167189
+        },
+        {
+            "accuracy": 0.848,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 7.045143,
+            "testing_delta_secs": 0.169973
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 13.76217,
+            "testing_delta_secs": 0.159714
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 20.583073,
+            "testing_delta_secs": 0.175983
+        },
+        {
+            "accuracy": 0.912,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 35.361014,
+            "testing_delta_secs": 0.1714
+        },
+        {
+            "accuracy": 0.942,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 57.048134,
+            "testing_delta_secs": 0.174165
+        },
+        {
+            "accuracy": 0.952,
+            "hidden_nodes": 200,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 92.324292,
+            "testing_delta_secs": 0.171962
+        },
+        {
+            "accuracy": 0.884,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 7.038876,
+            "testing_delta_secs": 0.166171
+        },
+        {
+            "accuracy": 0.93,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 14.161124,
+            "testing_delta_secs": 0.181953
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 21.72966,
+            "testing_delta_secs": 0.175296
+        },
+        {
+            "accuracy": 0.954,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 34.975666,
+            "testing_delta_secs": 0.16677
+        },
+        {
+            "accuracy": 0.956,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 55.865814,
+            "testing_delta_secs": 0.160583
+        },
+        {
+            "accuracy": 0.952,
+            "hidden_nodes": 200,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 90.373361,
+            "testing_delta_secs": 0.166183
+        },
+        {
+            "accuracy": 0.838,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 6.752582,
+            "testing_delta_secs": 0.175947
+        },
+        {
+            "accuracy": 0.914,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 13.925402,
+            "testing_delta_secs": 0.166956
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 21.202027,
+            "testing_delta_secs": 0.167938
+        },
+        {
+            "accuracy": 0.918,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 34.840277,
+            "testing_delta_secs": 0.182795
+        },
+        {
+            "accuracy": 0.968,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 55.383065,
+            "testing_delta_secs": 0.216337
+        },
+        {
+            "accuracy": 0.936,
+            "hidden_nodes": 200,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 89.438183,
+            "testing_delta_secs": 0.182823
+        },
+        {
+            "accuracy": 0.898,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 6.668457,
+            "testing_delta_secs": 0.171337
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 13.799542,
+            "testing_delta_secs": 0.170104
+        },
+        {
+            "accuracy": 0.934,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 20.216759,
+            "testing_delta_secs": 0.167901
+        },
+        {
+            "accuracy": 0.93,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 34.080823,
+            "testing_delta_secs": 0.170259
+        },
+        {
+            "accuracy": 0.942,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 55.05025,
+            "testing_delta_secs": 0.166817
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 200,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 88.501397,
+            "testing_delta_secs": 0.187636
+        },
+        {
+            "accuracy": 0.856,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 6.916756,
+            "testing_delta_secs": 0.159591
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 14.384714,
+            "testing_delta_secs": 0.172582
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 21.100798,
+            "testing_delta_secs": 0.176966
+        },
+        {
+            "accuracy": 0.874,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 34.793994,
+            "testing_delta_secs": 0.166786
+        },
+        {
+            "accuracy": 0.846,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 54.91638,
+            "testing_delta_secs": 0.173958
+        },
+        {
+            "accuracy": 0.864,
+            "hidden_nodes": 200,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 90.345199,
+            "testing_delta_secs": 0.183322
+        },
+        {
+            "accuracy": 0.824,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 6.716547,
+            "testing_delta_secs": 0.183092
+        },
+        {
+            "accuracy": 0.82,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 13.617987,
+            "testing_delta_secs": 0.157425
+        },
+        {
+            "accuracy": 0.818,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 20.266644,
+            "testing_delta_secs": 0.176014
+        },
+        {
+            "accuracy": 0.798,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 34.587215,
+            "testing_delta_secs": 0.173346
+        },
+        {
+            "accuracy": 0.732,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 55.603614,
+            "testing_delta_secs": 0.165033
+        },
+        {
+            "accuracy": 0.66,
+            "hidden_nodes": 200,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 90.363673,
+            "testing_delta_secs": 0.172601
+        },
+        {
+            "accuracy": 0.612,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 7.171206,
+            "testing_delta_secs": 0.174384
+        },
+        {
+            "accuracy": 0.722,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 14.448851,
+            "testing_delta_secs": 0.183333
+        },
+        {
+            "accuracy": 0.628,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 20.458664,
+            "testing_delta_secs": 0.157389
+        },
+        {
+            "accuracy": 0.616,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 34.09451,
+            "testing_delta_secs": 0.171452
+        },
+        {
+            "accuracy": 0.456,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 55.181196,
+            "testing_delta_secs": 0.173773
+        },
+        {
+            "accuracy": 0.622,
+            "hidden_nodes": 200,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 91.498699,
+            "testing_delta_secs": 0.196004
+        },
+        {
+            "accuracy": 0.532,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 6.728012,
+            "testing_delta_secs": 0.175946
+        },
+        {
+            "accuracy": 0.336,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 13.784868,
+            "testing_delta_secs": 0.160389
+        },
+        {
+            "accuracy": 0.408,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 20.407625,
+            "testing_delta_secs": 0.195587
+        },
+        {
+            "accuracy": 0.356,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 35.351755,
+            "testing_delta_secs": 0.18321
+        },
+        {
+            "accuracy": 0.462,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 55.416527,
+            "testing_delta_secs": 0.153116
+        },
+        {
+            "accuracy": 0.508,
+            "hidden_nodes": 200,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 90.643875,
+            "testing_delta_secs": 0.177562
+        },
+        {
+            "accuracy": 0.872,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 8.695467,
+            "testing_delta_secs": 0.172359
+        },
+        {
+            "accuracy": 0.888,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 17.532047,
+            "testing_delta_secs": 0.186715
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 25.934043,
+            "testing_delta_secs": 0.174972
+        },
+        {
+            "accuracy": 0.934,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 44.183648,
+            "testing_delta_secs": 0.233195
+        },
+        {
+            "accuracy": 0.936,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 71.991022,
+            "testing_delta_secs": 0.180828
+        },
+        {
+            "accuracy": 0.956,
+            "hidden_nodes": 300,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 114.083442,
+            "testing_delta_secs": 0.179425
+        },
+        {
+            "accuracy": 0.89,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 8.791881,
+            "testing_delta_secs": 0.181899
+        },
+        {
+            "accuracy": 0.906,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 17.629123,
+            "testing_delta_secs": 0.175776
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 26.596527,
+            "testing_delta_secs": 0.174669
+        },
+        {
+            "accuracy": 0.94,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 44.135036,
+            "testing_delta_secs": 0.178605
+        },
+        {
+            "accuracy": 0.952,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 70.483231,
+            "testing_delta_secs": 0.180681
+        },
+        {
+            "accuracy": 0.968,
+            "hidden_nodes": 300,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 114.438223,
+            "testing_delta_secs": 0.183342
+        },
+        {
+            "accuracy": 0.826,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 8.759094,
+            "testing_delta_secs": 0.188681
+        },
+        {
+            "accuracy": 0.916,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 18.002469,
+            "testing_delta_secs": 0.224438
+        },
+        {
+            "accuracy": 0.928,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 26.821061,
+            "testing_delta_secs": 0.183203
+        },
+        {
+            "accuracy": 0.946,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 44.250278,
+            "testing_delta_secs": 0.206539
+        },
+        {
+            "accuracy": 0.968,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 71.066501,
+            "testing_delta_secs": 0.176892
+        },
+        {
+            "accuracy": 0.96,
+            "hidden_nodes": 300,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 114.076134,
+            "testing_delta_secs": 0.181838
+        },
+        {
+            "accuracy": 0.872,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 8.816757,
+            "testing_delta_secs": 0.173537
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 17.700133,
+            "testing_delta_secs": 0.192498
+        },
+        {
+            "accuracy": 0.908,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 26.736563,
+            "testing_delta_secs": 0.191236
+        },
+        {
+            "accuracy": 0.948,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 44.037857,
+            "testing_delta_secs": 0.211257
+        },
+        {
+            "accuracy": 0.964,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 71.677942,
+            "testing_delta_secs": 0.200068
+        },
+        {
+            "accuracy": 0.956,
+            "hidden_nodes": 300,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 115.794849,
+            "testing_delta_secs": 0.183123
+        },
+        {
+            "accuracy": 0.832,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 8.883253,
+            "testing_delta_secs": 0.192392
+        },
+        {
+            "accuracy": 0.906,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 17.688145,
+            "testing_delta_secs": 0.195259
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 26.751934,
+            "testing_delta_secs": 0.166325
+        },
+        {
+            "accuracy": 0.864,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 43.811671,
+            "testing_delta_secs": 0.177015
+        },
+        {
+            "accuracy": 0.836,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 70.958851,
+            "testing_delta_secs": 0.187646
+        },
+        {
+            "accuracy": 0.886,
+            "hidden_nodes": 300,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 114.217247,
+            "testing_delta_secs": 0.176876
+        },
+        {
+            "accuracy": 0.844,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 9.000098,
+            "testing_delta_secs": 0.174781
+        },
+        {
+            "accuracy": 0.824,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 18.069654,
+            "testing_delta_secs": 0.18296
+        },
+        {
+            "accuracy": 0.824,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 26.658897,
+            "testing_delta_secs": 0.173245
+        },
+        {
+            "accuracy": 0.696,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 44.615036,
+            "testing_delta_secs": 0.17265
+        },
+        {
+            "accuracy": 0.6,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 69.31655,
+            "testing_delta_secs": 0.173025
+        },
+        {
+            "accuracy": 0.616,
+            "hidden_nodes": 300,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 114.325008,
+            "testing_delta_secs": 0.188812
+        },
+        {
+            "accuracy": 0.73,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 9.071919,
+            "testing_delta_secs": 0.206058
+        },
+        {
+            "accuracy": 0.594,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 17.683225,
+            "testing_delta_secs": 0.210518
+        },
+        {
+            "accuracy": 0.662,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 26.876962,
+            "testing_delta_secs": 0.178752
+        },
+        {
+            "accuracy": 0.58,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 44.180615,
+            "testing_delta_secs": 0.170201
+        },
+        {
+            "accuracy": 0.57,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 72.484648,
+            "testing_delta_secs": 0.182536
+        },
+        {
+            "accuracy": 0.534,
+            "hidden_nodes": 300,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 117.460849,
+            "testing_delta_secs": 0.19092
+        },
+        {
+            "accuracy": 0.222,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 9.140217,
+            "testing_delta_secs": 0.195697
+        },
+        {
+            "accuracy": 0.346,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 18.101559,
+            "testing_delta_secs": 0.176477
+        },
+        {
+            "accuracy": 0.436,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 26.416759,
+            "testing_delta_secs": 0.175866
+        },
+        {
+            "accuracy": 0.464,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 44.077511,
+            "testing_delta_secs": 0.16561
+        },
+        {
+            "accuracy": 0.278,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 70.234329,
+            "testing_delta_secs": 0.190467
+        },
+        {
+            "accuracy": 0.358,
+            "hidden_nodes": 300,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 117.334426,
+            "testing_delta_secs": 0.154655
+        },
+        {
+            "accuracy": 0.86,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 1,
+            "training_delta_secs": 19.165969,
+            "testing_delta_secs": 0.207231
+        },
+        {
+            "accuracy": 0.886,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 2,
+            "training_delta_secs": 39.042556,
+            "testing_delta_secs": 0.176498
+        },
+        {
+            "accuracy": 0.94,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 3,
+            "training_delta_secs": 58.849796,
+            "testing_delta_secs": 0.1841
+        },
+        {
+            "accuracy": 0.948,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 5,
+            "training_delta_secs": 95.801507,
+            "testing_delta_secs": 0.172719
+        },
+        {
+            "accuracy": 0.94,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 8,
+            "training_delta_secs": 153.894353,
+            "testing_delta_secs": 0.194718
+        },
+        {
+            "accuracy": 0.948,
+            "hidden_nodes": 400,
+            "learning_rate": 0.05,
+            "training_epochs": 13,
+            "training_delta_secs": 249.508984,
+            "testing_delta_secs": 0.184101
+        },
+        {
+            "accuracy": 0.892,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 1,
+            "training_delta_secs": 19.091673,
+            "testing_delta_secs": 0.18576
+        },
+        {
+            "accuracy": 0.914,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 2,
+            "training_delta_secs": 38.7021,
+            "testing_delta_secs": 0.176584
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 3,
+            "training_delta_secs": 57.476814,
+            "testing_delta_secs": 0.176086
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 5,
+            "training_delta_secs": 95.361558,
+            "testing_delta_secs": 0.196166
+        },
+        {
+            "accuracy": 0.956,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 8,
+            "training_delta_secs": 154.057817,
+            "testing_delta_secs": 0.170565
+        },
+        {
+            "accuracy": 0.97,
+            "hidden_nodes": 400,
+            "learning_rate": 0.075,
+            "training_epochs": 13,
+            "training_delta_secs": 249.081378,
+            "testing_delta_secs": 0.175127
+        },
+        {
+            "accuracy": 0.89,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 1,
+            "training_delta_secs": 19.149501,
+            "testing_delta_secs": 0.187328
+        },
+        {
+            "accuracy": 0.884,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 2,
+            "training_delta_secs": 38.24265,
+            "testing_delta_secs": 0.175774
+        },
+        {
+            "accuracy": 0.938,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 3,
+            "training_delta_secs": 57.413446,
+            "testing_delta_secs": 0.17561
+        },
+        {
+            "accuracy": 0.95,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 5,
+            "training_delta_secs": 95.58305,
+            "testing_delta_secs": 0.176552
+        },
+        {
+            "accuracy": 0.932,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 8,
+            "training_delta_secs": 152.943327,
+            "testing_delta_secs": 0.181579
+        },
+        {
+            "accuracy": 0.944,
+            "hidden_nodes": 400,
+            "learning_rate": 0.09,
+            "training_epochs": 13,
+            "training_delta_secs": 248.649256,
+            "testing_delta_secs": 0.182659
+        },
+        {
+            "accuracy": 0.878,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 1,
+            "training_delta_secs": 19.161442,
+            "testing_delta_secs": 0.182982
+        },
+        {
+            "accuracy": 0.896,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 2,
+            "training_delta_secs": 38.148534,
+            "testing_delta_secs": 0.181393
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 3,
+            "training_delta_secs": 57.517,
+            "testing_delta_secs": 0.165879
+        },
+        {
+            "accuracy": 0.934,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 5,
+            "training_delta_secs": 95.476897,
+            "testing_delta_secs": 0.20835
+        },
+        {
+            "accuracy": 0.964,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 8,
+            "training_delta_secs": 156.433142,
+            "testing_delta_secs": 0.183466
+        },
+        {
+            "accuracy": 0.956,
+            "hidden_nodes": 400,
+            "learning_rate": 0.1,
+            "training_epochs": 13,
+            "training_delta_secs": 248.743634,
+            "testing_delta_secs": 0.173261
+        },
+        {
+            "accuracy": 0.904,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 1,
+            "training_delta_secs": 19.147624,
+            "testing_delta_secs": 0.172395
+        },
+        {
+            "accuracy": 0.886,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 2,
+            "training_delta_secs": 38.024221,
+            "testing_delta_secs": 0.172909
+        },
+        {
+            "accuracy": 0.87,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 3,
+            "training_delta_secs": 57.013078,
+            "testing_delta_secs": 0.171922
+        },
+        {
+            "accuracy": 0.902,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 5,
+            "training_delta_secs": 95.565937,
+            "testing_delta_secs": 0.172404
+        },
+        {
+            "accuracy": 0.864,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 8,
+            "training_delta_secs": 151.975378,
+            "testing_delta_secs": 0.173292
+        },
+        {
+            "accuracy": 0.844,
+            "hidden_nodes": 400,
+            "learning_rate": 0.2,
+            "training_epochs": 13,
+            "training_delta_secs": 247.128952,
+            "testing_delta_secs": 0.16975
+        },
+        {
+            "accuracy": 0.868,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 1,
+            "training_delta_secs": 19.165335,
+            "testing_delta_secs": 0.216584
+        },
+        {
+            "accuracy": 0.92,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 2,
+            "training_delta_secs": 38.313266,
+            "testing_delta_secs": 0.170965
+        },
+        {
+            "accuracy": 0.842,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 3,
+            "training_delta_secs": 57.291658,
+            "testing_delta_secs": 0.20289
+        },
+        {
+            "accuracy": 0.76,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 5,
+            "training_delta_secs": 95.633297,
+            "testing_delta_secs": 0.194433
+        },
+        {
+            "accuracy": 0.702,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 8,
+            "training_delta_secs": 152.850025,
+            "testing_delta_secs": 0.169796
+        },
+        {
+            "accuracy": 0.456,
+            "hidden_nodes": 400,
+            "learning_rate": 0.3,
+            "training_epochs": 13,
+            "training_delta_secs": 248.631512,
+            "testing_delta_secs": 0.171857
+        },
+        {
+            "accuracy": 0.774,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 1,
+            "training_delta_secs": 19.113353,
+            "testing_delta_secs": 0.182904
+        },
+        {
+            "accuracy": 0.496,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 2,
+            "training_delta_secs": 38.232222,
+            "testing_delta_secs": 0.188895
+        },
+        {
+            "accuracy": 0.562,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 3,
+            "training_delta_secs": 57.233543,
+            "testing_delta_secs": 0.181785
+        },
+        {
+            "accuracy": 0.38,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 5,
+            "training_delta_secs": 95.769192,
+            "testing_delta_secs": 0.166584
+        },
+        {
+            "accuracy": 0.568,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 8,
+            "training_delta_secs": 153.227042,
+            "testing_delta_secs": 0.165216
+        },
+        {
+            "accuracy": 0.504,
+            "hidden_nodes": 400,
+            "learning_rate": 0.5,
+            "training_epochs": 13,
+            "training_delta_secs": 249.378097,
+            "testing_delta_secs": 0.195834
+        },
+        {
+            "accuracy": 0.346,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 1,
+            "training_delta_secs": 18.975352,
+            "testing_delta_secs": 0.219893
+        },
+        {
+            "accuracy": 0.368,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 2,
+            "training_delta_secs": 38.271481,
+            "testing_delta_secs": 0.164648
+        },
+        {
+            "accuracy": 0.356,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 3,
+            "training_delta_secs": 57.350363,
+            "testing_delta_secs": 0.182701
+        },
+        {
+            "accuracy": 0.38,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 5,
+            "training_delta_secs": 95.650852,
+            "testing_delta_secs": 0.172745
+        },
+        {
+            "accuracy": 0.428,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 8,
+            "training_delta_secs": 153.968995,
+            "testing_delta_secs": 0.183015
+        },
+        {
+            "accuracy": 0.424,
+            "hidden_nodes": 400,
+            "learning_rate": 0.75,
+            "training_epochs": 13,
+            "training_delta_secs": 250.476502,
+            "testing_delta_secs": 0.210628
+        }
+    ]
+}
